@@ -20,8 +20,8 @@ import { Footer } from '../components/Footer'
 
 const Index = () => (
   <Container height="100vh">
-    <Hero />
     <Main>
+    <Hero />
       <Text>
 Consultora em Amamentação
       </Text>

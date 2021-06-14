@@ -8,6 +8,7 @@ export const Container = (props: FlexProps) => {
   const color = { light: 'black', dark: 'white' }
   return (
     <Flex
+      flex="1"
       direction="column"
       alignItems="center"
       justifyContent="flex-start"
