@@ -6,6 +6,7 @@ import {
   List,
   ListIcon,
   ListItem,
+  Spacer,
 } from '@chakra-ui/react'
 import { CheckCircleIcon, LinkIcon  } from '@chakra-ui/icons'
 import { ImWhatsapp} from 'react-icons/im'
@@ -22,11 +23,8 @@ const Index = () => (
   <Container height="100vh">
     <Main>
     <Hero />
-      <Text>
-Consultora em Amamentação
-      </Text>
 
-      <List spacing={3} my={0}>
+      <List py="4rem" spacing={3} my={0}>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="green.500" />
           <ChakraLink
