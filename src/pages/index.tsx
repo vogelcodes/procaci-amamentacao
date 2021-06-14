@@ -21,7 +21,6 @@ const Index = () => (
   <Container height="100vh">
     <Hero />
     <Main>
-      
       <Text>
 Consultora em Amamentação
       </Text>

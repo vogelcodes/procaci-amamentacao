@@ -6,6 +6,7 @@ export default class Document extends NextDocument {
     return (
       <Html>
         <Head />
+        <title>@carolina.procaci - Consultora em Amamentação</title>
         <body>
           {/* Make Color mode to persists when you refresh the page. */}
           <ColorModeScript />
