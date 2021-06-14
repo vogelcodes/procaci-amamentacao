@@ -53,11 +53,10 @@ const Index = () => (
 
     <DarkModeSwitch />
     <Footer>
-      <ChakraLink isExternal display="flex" alignItems="center" mr="1" href="https://www.instagram.com/carolina.procaci/" flexGrow={1}><RiInstagramLine/>@carolina.procaci</ChakraLink>
-      <ChakraLink isExternal display="flex" alignItems="center" mr="1" href="https://br.pinterest.com/levecriar/" flexGrow={1}><RiPinterestLine/>levecriar</ChakraLink>
+      <ChakraLink isExternal display="flex" alignItems="center" mr="1" href="https://www.instagram.com/carolina.procaci/" flexGrow={1}><RiInstagramLine/><Text>@carolina.procaci</Text></ChakraLink>
+      <ChakraLink isExternal display="flex" alignItems="center" mr="1" href="https://br.pinterest.com/levecriar/" flexGrow={1}><RiPinterestLine/><Text>levecriar</Text></ChakraLink>
       <Text> - {new Date().getFullYear()}</Text>
     </Footer>
-    <CTA />
   </Container>
 )
 

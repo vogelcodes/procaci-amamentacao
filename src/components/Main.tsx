@@ -5,7 +5,7 @@ export const Main = (props: StackProps) => (
     spacing="1.5rem"
     width="100%"
     maxWidth="60rem"
-    pt={{base:"2rem", md:"8rem"}}
+    pt={{base:"4rem", md:"8rem"}}
     px="1rem"
     {...props}
   />
