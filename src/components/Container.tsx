@@ -3,7 +3,7 @@ import { Flex, useColorMode, FlexProps } from '@chakra-ui/react'
 export const Container = (props: FlexProps) => {
   const { colorMode } = useColorMode()
 
-  const bgColor = { light: 'gray.50', dark: 'gray.900' }
+  const bgColor = { light: '#fcfaef', dark: '#5b7e7a' }
 
   const color = { light: 'black', dark: 'white' }
   return (

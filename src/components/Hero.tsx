@@ -1,13 +1,17 @@
-import { Flex, Heading } from '@chakra-ui/react'
+import { Flex, Heading, Image } from '@chakra-ui/react'
 
 export const Hero = ({ title }: { title: string }) => (
   <Flex
+    direction="column"
     justifyContent="center"
     alignItems="center"
     height="100vh"
     bgGradient="linear(to-l, #7928CA, #FF0080)"
     bgClip="text"
+    pb="8"
   >
+        <Image borderRadius="full" src="https://images.prismic.io/carolinaprocaci-levecriar/e3fedded-bd6c-4af9-9aa3-9625bcc57968_187812270_371317947654797_506182409226668856_n.jpg?auto=compress,format" alt="CarolinaProcaci"/>
+
     <Heading fontSize="6vw">{title}</Heading>
   </Flex>
 )
