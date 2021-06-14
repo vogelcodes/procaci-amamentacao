@@ -7,8 +7,9 @@ import {
   ListIcon,
   ListItem,
 } from '@chakra-ui/react'
-import { CheckCircleIcon, LinkIcon } from '@chakra-ui/icons'
+import { CheckCircleIcon, LinkIcon  } from '@chakra-ui/icons'
 import { ImWhatsapp} from 'react-icons/im'
+import { RiPinterestLine, RiInstagramLine} from 'react-icons/ri'
 
 import { Hero } from '../components/Hero'
 import { Container } from '../components/Container'
@@ -54,6 +55,9 @@ Consultora em Amamentação
 
     <DarkModeSwitch />
     <Footer>
+      <ChakraLink isExternal display="flex" mr="1" href="https://www.instagram.com/carolina.procaci/" flexGrow={1}><RiInstagramLine/>@carolina.procaci</ChakraLink>
+      <ChakraLink isExternal display="flex" mr="1" href="https://br.pinterest.com/levecriar/" flexGrow={1}><RiPinterestLine/>levecriar</ChakraLink>
+      <Text> - {new Date().getFullYear()}</Text>
     </Footer>
     <CTA />
   </Container>
