@@ -7,6 +7,7 @@ import {
   ListItem,
 } from '@chakra-ui/react'
 import { CheckCircleIcon, LinkIcon } from '@chakra-ui/icons'
+import { ImWhatsapp} from 'react-icons/im'
 
 import { Hero } from '../components/Hero'
 import { Container } from '../components/Container'
@@ -20,8 +21,7 @@ const Index = () => (
     <Hero />
     <Main>
       <Text>
-        Example repository of <Code>Next.js</Code> + <Code>chakra-ui</Code> +{' '}
-        <Code>typescript</Code>.
+Consultora em Amamentação
       </Text>
 
       <List spacing={3} my={0}>
@@ -29,17 +29,23 @@ const Index = () => (
           <ListIcon as={CheckCircleIcon} color="green.500" />
           <ChakraLink
             isExternal
-            href="https://chakra-ui.com"
+            href="https://rblh.fiocruz.br/localizacao-dos-blhs"
             flexGrow={1}
             mr={2}
           >
-            Chakra UI <LinkIcon />
+            Encontre o Banco de Leite Humano mais próximo de você <LinkIcon />
           </ChakraLink>
         </ListItem>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="green.500" />
-          <ChakraLink isExternal href="https://nextjs.org" flexGrow={1} mr={2}>
-            Next.js <LinkIcon />
+          <ChakraLink isExternal href="http://gruposdepesquisa.eerp.usp.br/gpecca/cartilha_sabrina_Final_Para_distribuicao.pdf" flexGrow={1} mr={2}>
+          Cartilha da USP ensinando como desengasgar bebês e crianças pequenas <LinkIcon />
+          </ChakraLink>
+        </ListItem>
+        <ListItem>
+          <ListIcon as={CheckCircleIcon} color="green.500" />
+          <ChakraLink isExternal href="https://wa.me/5521986388688" flexGrow={1} mr={2}>
+          Fale Comigo pelo Whatsapp <ListIcon as={ImWhatsapp}></ListIcon>
           </ChakraLink>
         </ListItem>
       </List>
@@ -47,7 +53,6 @@ const Index = () => (
 
     <DarkModeSwitch />
     <Footer>
-      <Text>Next ❤️ Chakra</Text>
     </Footer>
     <CTA />
   </Container>
