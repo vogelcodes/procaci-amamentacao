@@ -20,8 +20,8 @@ import { CTA } from '../components/CTA'
 import { Footer } from '../components/Footer'
 
 const Index = () => (
-  <Container height="100vh">
-    <Main>
+  <Container minH="100vh">
+    <Main flex="1">
     <Hero />
 
       <List py="4rem" spacing={3} my={0}>
